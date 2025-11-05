@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
 	long detik,totaldetik;
-	int jam ,menit;
+	int jam,menit;
 	
-	cout << "masukan angka >1 (dalam satuan detik) :";
+	cout << "Masukan Bilangan Angka Satuan Detik :";
 	cin  >> detik;
 	
 	jam=(detik%86400)/3600;
@@ -13,9 +13,10 @@ int main(){
 	totaldetik=detik%60;
 	
     cout <<endl;
-    cout << "hasil konversi :" <<endl;
+    cout << "Hasil Dari konversi Jam , Menit , Detik :" <<endl;
 	cout << detik <<" "<< "detik" <<" "<< "=" <<" "<< jam << " " << "jam" << " " << menit << " " << "menit" << " " << totaldetik << " " << "detik" <<endl;
 	
 	return 0;
 }
+
 
