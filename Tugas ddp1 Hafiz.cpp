@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	long detik,totaldetik;
+	long detik,jumlahkeseluruhandetik;
 	int jam,menit;
 	
 	cout << "Masukan Bilangan Angka Satuan Detik :";
@@ -10,13 +10,14 @@ int main(){
 	
 	jam=(detik%86400)/3600;
 	menit=(detik%3600)/60;
-	totaldetik=detik%60;
+	jumlahkeseluruhandetik=detik%60;
 	
     cout <<endl;
     cout << "Hasil Dari konversi Jam , Menit , Detik :" <<endl;
-	cout << detik <<" "<< "detik" <<" "<< "=" <<" "<< jam << " " << "jam" << " " << menit << " " << "menit" << " " << totaldetik << " " << "detik" <<endl;
+	cout << detik <<" "<< "detik" <<" "<< "=" <<" "<< jam << " " << "jam" << " " << menit << " " << "menit" << " " << jumlahkeseluruhandetik << " " << "detik" <<endl;
 	
 	return 0;
 }
+
 
 
