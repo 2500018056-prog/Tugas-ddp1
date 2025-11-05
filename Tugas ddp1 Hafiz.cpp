@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-	long detik,jumlahkeseluruhandetik;
-	int jam,menit;
+	int jam, menit, detik;
+	long jumlahkeseluruhanDetik;
 	
 	cout<< "Masukan Bilangan Angka Satuan Detik :";
 	cin>> detik;
@@ -18,6 +18,7 @@ int main(){
 	
 	return 0;
 }
+
 
 
 
