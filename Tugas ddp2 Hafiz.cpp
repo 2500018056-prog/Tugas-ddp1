@@ -9,8 +9,8 @@ int main() {
     cin >> jumlahkeseluruhanDetik;
 	
     hari  = jumlahkeseluruhanDetik / 86400;
-    jam   = jumlahkeseluruhanDetik % 86400) / 3600;
-    menit = jumlahkeseluruhanDetik % 3600) / 60;
+    jam   = (jumlahkeseluruhanDetik % 86400) / 3600;
+    menit = (jumlahkeseluruhanDetik % 3600) / 60;
     detik = jumlahkeseluruhanDetik % 60;
 	
 	cout << endl;
@@ -23,5 +23,6 @@ int main() {
 
     return 0;
 }
+
 
 
