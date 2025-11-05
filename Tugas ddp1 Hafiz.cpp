@@ -15,8 +15,10 @@ int main(){
     cout<<endl;
     cout<<"Hasil konversi Dari Jam , Menit , Detik :" <<endl;
 	cout<<detik <<" "<< "detik" <<" "<< "=" <<" "<< jam << " " << "jam" << " " << menit << " " << "menit" << " " << jumlahkeseluruhandetik << " " << "detik" <<endl;
+	
 	return 0;
 }
+
 
 
 
