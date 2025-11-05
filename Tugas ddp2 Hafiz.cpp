@@ -7,7 +7,7 @@ int main() {
 	int hari;
 	
 
-	cout <<"Masukan angka >1 (dalam satuan detik) :";
+	cout <<"Masukan Bilangan Angka Satuan Detik :";
 	cin >> detik;
 	
     hari=detik/86400;
@@ -16,7 +16,8 @@ int main() {
 	detik=detik%60;
 	
 	cout << endl;
-	cout << "hasil konversi:" <<endl;
+	cout << "Hasil konversi Dari Jam , Menit , Detik :" <<endl;
 	cout << detik << " " << "detik" << " " << "=" << " "<< hari << " "<<"hari" <<" "<< jam <<" "<< "jam"<< " " << menit <<" "<< "menit"<<" " << detik <<" "<< "detik";
     
 }
+
